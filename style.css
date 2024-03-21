@@ -2,17 +2,81 @@
   padding: 0;
 }
 
+.accordion-item {
+  margin: 15px 0;
+}
+
+.accordion-button {
+  background-color: #F6F6F6 !important;
+  font-weight: 500;
+  font-size: 19px;
+  color: #000000 !important;
+}
+
+.accordion-body {
+  background-color: #F6F6F6 !important;
+}
+
+.accordion-body a {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22.95px;
+  letter-spacing: -0.022em;
+  text-align: left;
+  color: #1F3028;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.accordion-body a:hover {
+  color: #171752;
+  text-decoration: underline;
+}
+
+.accordion-button::after {
+  background-color: #1F3028;
+  border-radius: 50%;
+  color: white;
+  content: "-";
+  display: inline-block;
+  font-size: 20px;
+  height: 30px;
+  line-height: 23px;
+  text-align: center;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none;
+  background-color: #fff;
+  border-bottom: 1px solid #DEE2E6;
+}
+
+.accordion-button.collapsed::after {
+  content: "+";
+}
+
+.accordion-button.collapsed::after,
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+}
+
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  background-color: #EEEEEF;
 }
 
-.topBox {
-  background-color: rgba(115, 114, 113, 0.8274509804);
-}
 .topBox .topbar {
+  z-index: 10;
   border-bottom: 1px solid #cacaca;
   padding: 5px 0;
+  background-color: #989593;
+  position: sticky;
 }
 .topBox span {
   font-size: 14px;
@@ -39,6 +103,9 @@ body {
 }
 .topBox nav {
   padding: 10px 40px;
+  background-color: #817E7C;
+  position: sticky;
+  z-index: 2;
 }
 .topBox nav .LogoAndMenu {
   display: flex;
@@ -107,4 +174,126 @@ body {
 }
 .topBox nav .GetInTouch i {
   padding-right: 5px;
+}
+
+#hero {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url("./img/hero-bg2.png");
+  background-size: cover;
+  z-index: 2;
+  margin-top: -50px;
+}
+#hero .heroBox {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7137254902), rgba(255, 255, 255, 0));
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #7d7d7e;
+}
+#hero .heroBox h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 60.8px;
+  letter-spacing: -0.022em;
+  text-align: left;
+}
+#hero .heroBox p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.95px;
+  text-align: left;
+  width: 78%;
+}
+#hero .heroBox .phoneButton {
+  background-color: rgba(56, 56, 56, 0.808);
+  color: white;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin-right: 20px;
+}
+#hero .heroBox .phoneButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+#hero .heroBox .phoneButton i {
+  padding-right: 5px;
+}
+#hero .heroBox .GetInTouch {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+#hero .heroBox .GetInTouch:hover {
+  background-color: rgba(56, 56, 56, 0.808);
+  color: white;
+}
+#hero .heroBox .GetInTouch i {
+  padding-right: 5px;
+}
+#hero .heroBox .heroBuutons {
+  display: flex;
+  align-items: flex-end;
+}
+
+#expertise {
+  padding: 40px 0;
+}
+#expertise .rahabOptions {
+  background-color: #E8E8E9;
+  border: 1px solid #D0D2D1;
+  color: #47554E;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 20.25px;
+  letter-spacing: -0.022em;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+#expertise .expertiseText {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48.6px;
+  letter-spacing: -0.022em;
+  color: #1F3028;
+  padding-top: 20px;
+}
+#expertise .AddictionTreaButtonDiv {
+  float: right;
+}
+#expertise .AddictionTreaButtonDiv .AddictionTreatmentProgram {
+  background-color: #1F3028;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+#expertise .CoupleDiv {
+  margin-top: 60px;
+  background-color: #E4E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#expertise .CoupleDiv img {
+  width: 100%;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
