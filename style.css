@@ -1,3 +1,78 @@
+.commonSectionTitle {
+  background-color: #E8E8E9;
+  border: 1px solid #D0D2D1;
+  color: #47554E;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 20.25px;
+  letter-spacing: -0.022em;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.commonSectionHeader {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48.6px;
+  letter-spacing: -0.022em;
+  color: #1F3028;
+  padding-top: 10px;
+}
+
+.commonButton1 {
+  background-color: #1F3028;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-weight: 500;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.commonButton1 span {
+  padding: 4px 5px;
+  line-height: 10px;
+  border-radius: 50%;
+  background-color: #3A4942;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: -2px;
+  display: inline-block;
+}
+
+.commonButton2 {
+  background-color: #EEEEEF;
+  font-weight: 500;
+  color: #000;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid rgba(46, 60, 53, 0.2117647059);
+  text-decoration: none;
+}
+.commonButton2 span {
+  padding: 4px 5px;
+  line-height: 10px;
+  border-radius: 50%;
+  background-color: #3A4942;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: -2px;
+  display: inline-block;
+}
+
+.commonParagraph {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22.95px;
+  letter-spacing: -0.022em;
+  text-align: left;
+  color: rgba(31, 48, 40, 0.6980392157);
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -180,6 +255,8 @@ body {
   display: flex;
   align-items: flex-end;
   height: 100vh;
+  min-height: 700px;
+  max-height: 1200px;
   width: 100vw;
   box-sizing: border-box;
   overflow: hidden;
@@ -277,14 +354,6 @@ body {
 #expertise .AddictionTreaButtonDiv {
   float: right;
 }
-#expertise .AddictionTreaButtonDiv .AddictionTreatmentProgram {
-  background-color: #1F3028;
-  color: #fff;
-  border: none;
-  outline: none;
-  padding: 8px 12px;
-  border-radius: 10px;
-}
 #expertise .CoupleDiv {
   margin-top: 60px;
   background-color: #E4E5E5;
@@ -296,6 +365,20 @@ body {
 #expertise .CoupleDiv img {
   width: 100%;
   border-radius: 10px;
+}
+
+#aboutus .left {
+  padding: 40px;
+  background-color: #E4E4E5;
+}
+#aboutus .left img {
+  width: 100%;
+  border-radius: 10px;
+}
+#aboutus .right {
+  padding: 40px;
+  padding-left: 0px;
+  background-color: #E4E4E5;
 }
 
 @media only screen and (max-width: 1290px) {

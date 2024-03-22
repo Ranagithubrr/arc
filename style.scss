@@ -1,3 +1,81 @@
+// common classes
+.commonSectionTitle {
+    background-color: #E8E8E9;
+    border: 1px solid #D0D2D1;
+    color: #47554E;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 20.25px;
+    letter-spacing: -0.022em;
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.commonSectionHeader {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48.6px;
+    letter-spacing: -0.022em;
+    color: #1F3028;
+    padding-top: 10px;
+}
+
+.commonButton1 {
+    background-color: #1F3028;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-decoration: none;
+    span{        
+        padding:4px 5px;
+        line-height: 10px;        
+        border-radius: 50%;
+        background-color: #3A4942;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: -2px;
+        display: inline-block;        
+    }
+}
+
+.commonButton2 {
+    background-color: #EEEEEF;
+    font-weight: 500;
+    color: #000;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #2e3c3536;
+    text-decoration: none;
+    span{        
+        padding:4px 5px;
+        line-height: 10px;        
+        border-radius: 50%;
+        background-color: #3A4942;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: -2px;
+        display: inline-block;        
+    }
+}
+
+.commonParagraph {    
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22.95px;
+    letter-spacing: -0.022em;
+    text-align: left;
+    color: #1F3028B2;
+
+
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -209,6 +287,8 @@ body {
     align-items: flex-end;
     // justify-content: center;
     height: 100vh;
+    min-height: 700px;
+    max-height: 1200px;
     width: 100vw;
     box-sizing: border-box;
     overflow: hidden;
@@ -320,15 +400,6 @@ body {
 
     .AddictionTreaButtonDiv {
         float: right;
-
-        .AddictionTreatmentProgram {
-            background-color: #1F3028;
-            color: #fff;
-            border: none;
-            outline: none;
-            padding: 8px 12px;
-            border-radius: 10px;
-        }
     }
 
     .CoupleDiv {
@@ -343,6 +414,24 @@ body {
             width: 100%;
             border-radius: 10px;
         }
+    }
+}
+
+#aboutus {
+    .left {
+        padding: 40px;
+        background-color: #E4E4E5;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .right {
+        padding: 40px;
+        padding-left: 0px;
+        background-color: #E4E4E5;
     }
 }
 
@@ -396,12 +485,13 @@ body {
         font-size: 12px;
     }
 
-    #hero .heroBox .phoneButton {        
-        padding: 8px 8px;        
+    #hero .heroBox .phoneButton {
+        padding: 8px 8px;
         font-size: 12px;
     }
-    #hero .heroBox .GetInTouch {        
-        padding: 8px 8px;        
+
+    #hero .heroBox .GetInTouch {
+        padding: 8px 8px;
         font-size: 12px;
     }
 }
