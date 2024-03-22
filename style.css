@@ -296,4 +296,41 @@ body {
 #expertise .CoupleDiv img {
   width: 100%;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 1290px) {
+  .topBox nav .LogoAndMenu ul {
+    padding-left: 10px;
+  }
+  .topBox nav .LogoAndMenu ul li a {
+    padding: 0 5px;
+  }
+  .topBox nav .LogoAndMenu .mainLogo {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    width: 50px;
+  }
+  .topBox nav .LogoAndMenu .mainLogo img {
+    width: 100%;
+  }
+  .topBox nav .phoneButton {
+    padding: 10px;
+  }
+  .topBox nav .GetInTouch {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .topBox nav .phoneButton {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .topBox nav .GetInTouch {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .topBox nav .LogoAndMenu ul li a {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=style.css.map */

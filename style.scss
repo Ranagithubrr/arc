@@ -6,12 +6,13 @@
     margin: 15px 0;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: #F6F6F6 !important;
     font-weight: 500;
     font-size: 19px;
-    color:#000000 !important;
+    color: #000000 !important;
 }
+
 .accordion-body {
     background-color: #F6F6F6 !important;
 }
@@ -23,13 +24,14 @@
     line-height: 22.95px;
     letter-spacing: -0.022em;
     text-align: left;
-    color:#1F3028;
+    color: #1F3028;
     text-decoration: none;
-    margin:10px 0;
+    margin: 10px 0;
 
 }
+
 .accordion-body a:hover {
-    color:#171752;
+    color: #171752;
     text-decoration: underline;
 
 }
@@ -341,5 +343,49 @@ body {
             width: 100%;
             border-radius: 10px;
         }
+    }
+}
+
+@media only screen and (max-width:1290px) {
+    .topBox nav .LogoAndMenu ul {
+        padding-left: 10px;
+    }
+
+    .topBox nav .LogoAndMenu ul li a {
+        padding: 0 5px;
+    }
+
+    .topBox nav .LogoAndMenu .mainLogo {
+        margin: 0;
+        display: flex;
+        padding: 0;
+        width: 50px;
+    }
+
+    .topBox nav .LogoAndMenu .mainLogo img {
+        width: 100%;
+    }
+
+    .topBox nav .phoneButton {
+        padding: 10px;
+    }
+
+    .topBox nav .GetInTouch {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:1130px) {
+    .topBox nav .phoneButton {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .topBox nav .GetInTouch {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .topBox nav .LogoAndMenu ul li a{
+        font-size: 13px;
     }
 }
