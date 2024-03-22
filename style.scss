@@ -385,7 +385,23 @@ body {
         padding: 8px;
         font-size: 12px;
     }
-    .topBox nav .LogoAndMenu ul li a{
+
+    .topBox nav .LogoAndMenu ul li a {
         font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .topBox nav .LogoAndMenu ul li a {
+        font-size: 12px;
+    }
+
+    #hero .heroBox .phoneButton {        
+        padding: 8px 8px;        
+        font-size: 12px;
+    }
+    #hero .heroBox .GetInTouch {        
+        padding: 8px 8px;        
+        font-size: 12px;
     }
 }
